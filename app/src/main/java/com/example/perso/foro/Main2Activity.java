@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);/*hola*/
         setContentView(R.layout.activity_main2);
         Lista = (ListView) findViewById(R.id.lista);
         cargar();
